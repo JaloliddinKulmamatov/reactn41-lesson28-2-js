@@ -22,7 +22,6 @@
 }
 header {
   background: #E6E6E6;
-  background: cover url(/img/banner-13.png.png);
   padding: 208px 0 448px 0;
 }
 
@@ -45,6 +44,7 @@ header {
 .header__left .header__beg h2 {
   font-size: 20px;
   line-height: 24px;
+  font-weight: 900;
   letter-spacing: 0.48px;
   font-family: "Bakbak One", sans-serif;
   margin-bottom: 24px;
@@ -56,6 +56,7 @@ header {
   text-decoration: underline;
 }
 .header__left h1 {
+  font-weight: 700;
   font-family: "Bakbak One", sans-serif;
   font-size: 55px;
   line-height: 68px;
@@ -69,16 +70,19 @@ header {
   margin-bottom: 34px;
 }
 .header__left .header__form {
+  background-color: #fff;
   position: relative;
   max-width: 300px;
+  margin-bottom: 320px;
 }
 .header__left .header__form input {
+  border-color: #000;
   position: absolute;
   padding: 22px;
   width: 84%;
   font-size: 16px;
   line-height: 20px;
-  border-radius: 40px;
+  border-radius: 50px;
   border: 0;
 }
 .header__left .header__form button {
@@ -98,22 +102,23 @@ header {
 }
 
 .header__right {
+  top: 30;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 40px;
 }
 .header__right .header__right__tab {
-  max-width: 350px;
+  border: none;
   background-color: #fff;
+  width: 100%;
+  max-width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 5px;
-  padding: 15px 10px;
-  border-radius: 30px;
-  -webkit-box-shadow: 0 0 5px 1px #5e5252;
-          box-shadow: 0 0 5px 1px #5e5252;
+  padding: 10px 10px;
+  border-radius: 50px;
 }
 .header__right .header__right__tab p {
   color: #3BB77E;

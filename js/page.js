@@ -1,4 +1,4 @@
-const API__URL = "https://fakestoreapi.com/products/";
+const API__URL = "https://api.escuelajs.co/api/v1/products";
 const productCard = document.querySelector(".product-card");
 
 async function fetchSinglePage(api) {
